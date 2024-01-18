@@ -12,11 +12,11 @@ const likedSongSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    lengthText: {
+    songLength: {
         type: String,
         required: true
     },
-    thumbnail: {
+    picture: {
         type: String,
         required: true
     }
